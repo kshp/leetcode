@@ -9,13 +9,12 @@ public class TwoSum_1 {
             return new int[2];
 
         Map<Integer, Integer> diffMap = new HashMap<>();
-        for (int i = 0; i < nums.length; i++)
-            diffMap.put(target - nums[i], i);
 
         for (int i = 0; i < nums.length; i++) {
-            Integer diff = diffMap.get(nums[i]);
-            if (diff != null && diff != i)
-                return new int[]{i, diffMap.get(nums[i])};
+            int complement = target - nums[i];
+            if (diffMap.get(nums[i]) != null && i != diffMap.get(nums[i]))
+                return new int[]{diffMap.get(nums[i]), i};
+            diffMap.put(complement, i);
         }
 
         return new int[2];
