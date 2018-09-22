@@ -1,5 +1,6 @@
-package com.pk.leetcode.arrays;
+package com.pk.leetcode.two.pointers;
 
+import com.pk.leetcode.two.pointers.Sum3_15;
 import org.junit.Before;
 import org.junit.Test;
 
