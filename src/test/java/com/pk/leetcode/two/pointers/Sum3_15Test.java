@@ -22,7 +22,6 @@ public class Sum3_15Test {
         expectedResult1 = new ArrayList<>();
         expectedResult1.add(Arrays.asList(-1, -1, 2));
         expectedResult1.add(Arrays.asList(-1, 0, 1));
-
     }
 
     @Test
