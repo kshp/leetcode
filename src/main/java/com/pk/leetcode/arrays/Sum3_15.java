@@ -1,4 +1,4 @@
-package com.pk.leetcode.two.pointers;
+package com.pk.leetcode.arrays;
 
 import java.util.*;
 
