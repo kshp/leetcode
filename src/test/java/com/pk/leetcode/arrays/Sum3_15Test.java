@@ -1,4 +1,4 @@
-package com.pk.leetcode.two.pointers;
+package com.pk.leetcode.arrays;
 
 import com.pk.leetcode.arrays.Sum3_15;
 import org.junit.Before;

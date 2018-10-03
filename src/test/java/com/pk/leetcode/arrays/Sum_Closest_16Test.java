@@ -1,4 +1,4 @@
-package com.pk.leetcode.two.pointers;
+package com.pk.leetcode.arrays;
 
 import com.pk.leetcode.arrays.Sum_Closest_16;
 import org.junit.Test;
