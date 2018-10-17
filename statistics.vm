@@ -11,6 +11,7 @@ September 2018
 24.09 - 3(H), 76(H)
 03.10 - 438(E)
 04.10 - 3(M)
+17.10 - 30(H)
 
 
 1) Читаем условие задачи, ни в коем случае не пытаемся придумать решение до того, как условие прочитано до конца.Это важно!!!
@@ -30,3 +31,6 @@ September 2018
 У меня такое получалось в 10% случаев.
 
 
+*) OpenJDK doesn't install javaFX by default. Some classes in this repo use javafx.util.Pair.
+You have to install javaFX manually (for example):
+https://stackoverflow.com/questions/27178895/cannot-resolve-symbol-javafx-application-in-intellij-idea-ide
