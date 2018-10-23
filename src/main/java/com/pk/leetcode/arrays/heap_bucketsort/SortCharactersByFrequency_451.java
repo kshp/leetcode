@@ -1,4 +1,4 @@
-package com.pk.leetcode.string;
+package com.pk.leetcode.arrays.heap_bucketsort;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -28,5 +28,29 @@ public class SortCharactersByFrequency_451 {
                         sb.append(c);
 
         return sb.toString();
+    }
+
+    public static String frequencySort4ms (String s) {
+        int[] cnt = new int[256];
+        char[] chs = s.toCharArray();
+        for (char ch : chs) {
+            cnt[ch]++;
+        }
+        int i = 0;
+        while (i < chs.length) {
+            int k = 0, j = 0;
+            while (j < cnt.length) {
+                if (cnt[j] > cnt[k]) { // j一路往前，k保存freq最大的位置(char)，如果j找到更大的，update j
+                    k = j;
+                }
+                j++;
+            }
+            while (cnt[k] > 0) { //k即是char，cnt[k]是这个char的freq
+                chs[i++] = (char)k; // 把k置换到charArr当前指针的位置
+                cnt[k]--;
+            }
+        }
+
+        return String.valueOf(chs);
     }
 }
