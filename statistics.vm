@@ -25,22 +25,18 @@ February 2019
 
 March 2019
 03.03 - 394(M) Decode String
+06.03 - 70(M) Easy
 
 
-1) Читаем условие задачи, ни в коем случае не пытаемся придумать решение до того, как условие прочитано до конца.
-2) Пытаемся придумать уточняющие вопросы.
-3) Рисуем примеры, лучше парочку — один классический, второй с corner cases.
-4) Придумываем решение «в лоб» и оцениваем его сложность. Сложность решения нужно уметь определить всегда.
-5) Придумываем более оптимальное решение, оцениваем его сложность.
-6) Разрабатываем API решения — какие будут методы (приватные и публичные).
-7) Пишем код в тетрадке.
-8) Дебажим код по тетрадке на новом примере. Не нужно брать один из примеров, который мы рисовали в начале.
-В этом случае очень высока вероятность, что мы написали решение именно для этого случая, а не для всех возможных.
-Лучше взять новый пример с corner-кейсом, такой, чтобы потенциально мог решение сломать.
-9) Перебиваем код в любимую IDE, при этом не смотрим в бумажку. Таким образом, мы повторяем решение два раза.
-10) Копируем код из IDE в LeetCode и запускаем.
-
-
+1) Read problem definition carefully
+2) Try to come up with clarifying questions
+3) Create examples for common and corner cases
+4) Come up with the simplest solution and its time and space complexity
+5) Try to come up with more optimal solution
+6) Design API for the solution
+7) Write code on whiteboard/paper
+8) Debug code on whiteboard/paper with new test cases
+9) Copy code to the IDE and run in
 *) OpenJDK doesn't install javaFX by default. Some classes in this repo use javafx.util.Pair.
 You have to install javaFX manually (for example):
 https://stackoverflow.com/questions/27178895/cannot-resolve-symbol-javafx-application-in-intellij-idea-ide
