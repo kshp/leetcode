@@ -17,6 +17,8 @@ package com.pk.leetcode.recursion_dp;
 public class PaintHouse_256 {
 
     public int minCost(int[][] costs) {
+        if (costs.length==0)
+            return 0;
         int lastR = costs[0][0];
         int lastB = costs[0][1];
         int lastG = costs[0][2];
