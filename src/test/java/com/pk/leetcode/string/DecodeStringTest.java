@@ -15,6 +15,9 @@ public class DecodeStringTest {
     private static String s3 = "2[abc]3[cd]ef";
     private static String r3 = "abcabccdcdcdef";
 
+    private static String s4 = "a3[a2[c]b]";
+    private static String r4 = "aaccbaccbaccb";
+
     @Test
     public void decodeString() {
         DecodeString_384 instance = new DecodeString_384();
@@ -22,5 +25,6 @@ public class DecodeStringTest {
         assertTrue(r1.equals(instance.decodeString(s1)));
         assertTrue(r2.equals(instance.decodeString(s2)));
         assertTrue(r3.equals(instance.decodeString(s3)));
+        assertTrue(r4.equals(instance.decodeString(s4)));
     }
 }
