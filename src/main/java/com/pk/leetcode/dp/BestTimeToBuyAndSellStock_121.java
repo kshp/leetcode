@@ -1,4 +1,4 @@
-package com.pk.leetcode.recursion_dp;
+package com.pk.leetcode.dp;
 
 public class BestTimeToBuyAndSellStock_121 {
 

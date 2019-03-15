@@ -1,4 +1,4 @@
-package com.pk.leetcode.recursion_dp;
+package com.pk.leetcode.dp;
 
 import org.junit.Test;
 
