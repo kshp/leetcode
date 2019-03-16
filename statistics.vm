@@ -30,7 +30,10 @@ March 2019
 09.03 - 121(E) Best Time to Buy and Sell Stock
 10.03 - 746(E) Min Cost Climbing Stairs
 11.03 - 53(E) Maximum Subarray
+12.03 - 196(M) House Robber
+13.03 - 303(E) Range Sum Query - Immutable
 15.03 - FixedArrayQueue, DynamicArrayQueue, Moving Average
+16.03 - BinaryTreePreOrderTraversal
 
 
 1) Read problem definition carefully
