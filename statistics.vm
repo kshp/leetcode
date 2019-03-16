@@ -33,7 +33,7 @@ March 2019
 12.03 - 196(M) House Robber
 13.03 - 303(E) Range Sum Query - Immutable
 15.03 - FixedArrayQueue, DynamicArrayQueue, Moving Average
-16.03 - BinaryTreePreOrderTraversal
+16.03 - BinaryTreePreOrderTraversal, BinaryTreeInOrderTraversal
 
 
 1) Read problem definition carefully
