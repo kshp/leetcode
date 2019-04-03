@@ -36,10 +36,10 @@ public class ConstructBinaryTreeFromPreOrderAndInorderTraversalTest {
     @Test
     public void testPreOrderTraversal() {
         ConstructBinaryTreeFromPreOrderAndInorderTraversal instance = new ConstructBinaryTreeFromPreOrderAndInorderTraversal();
-        TreeNode result1 = instance.buildTree(preorder1, inorder1);
-        assertTrue(TreeNode.equalTrees(root1, result1));
+        assertTrue(TreeNode.equalTrees(root1, instance.buildTreeRecursive(preorder1, inorder1)));
+        assertTrue(TreeNode.equalTrees(root1, instance.buildTreeIterative(preorder1, inorder1)));
 
-        TreeNode result2 = instance.buildTree(preorder2, inorder2);
+        TreeNode result2 = instance.buildTreeRecursive(preorder2, inorder2);
         assertTrue(TreeNode.equalTrees(root2, result2));
     }
 
