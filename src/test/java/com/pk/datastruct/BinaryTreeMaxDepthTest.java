@@ -1,10 +1,8 @@
 package com.pk.datastruct;
 
-import com.pk.leetcode.trees.TreeNode;
+import com.pk.leetcode.utils.TreeNode;
 import org.junit.Before;
 import org.junit.Test;
-
-import java.util.List;
 
 import static org.junit.Assert.*;
 

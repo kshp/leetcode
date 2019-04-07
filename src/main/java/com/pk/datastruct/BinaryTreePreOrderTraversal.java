@@ -1,6 +1,6 @@
 package com.pk.datastruct;
 
-import com.pk.leetcode.trees.TreeNode;
+import com.pk.leetcode.utils.TreeNode;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;

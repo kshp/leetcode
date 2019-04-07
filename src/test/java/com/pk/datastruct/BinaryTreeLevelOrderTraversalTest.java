@@ -1,7 +1,6 @@
 package com.pk.datastruct;
 
-import com.pk.leetcode.trees.TreeNode;
-import org.junit.Assert;
+import com.pk.leetcode.utils.TreeNode;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -56,7 +55,4 @@ public class BinaryTreeLevelOrderTraversalTest {
         assertTrue(resultList2.containsAll(integers1_2));
     }
 
-    @Test
-    public void levelOrder() {
-    }
 }
