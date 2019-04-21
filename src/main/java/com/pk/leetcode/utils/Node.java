@@ -20,7 +20,7 @@ public class Node {
         this.next = next;
     }
 
-    public static Boolean equalTrees(Node n1, Node n2){
+    public static Boolean equalTrees(Node n1, Node n2) {
         if (n1 == n2)
             return true;
 
