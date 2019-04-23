@@ -16,12 +16,27 @@ public class NumberOfIslands_200Test {
             {'1', '1', '0', '0', '0'},
             {'1', '1', '0', '0', '0'},
             {'1', '1', '0', '0', '0'},
-            {'0', '0', '0', '1', '1'}};
+            {'0', '0', '0', '1', '1'}}; 
+    
+    private char[][] grid3 = {
+            {'1','1','1','1','1','1'},
+            {'1','0','0','0','0','1'},
+            {'1','0','1','1','0','1'},
+            {'1','0','0','0','0','1'},
+            {'1','1','1','1','1','1'}};
 
     @Test
     public void testNumIslands() {
         NumberOfIslands_200 instance = new NumberOfIslands_200();
         assertEquals(1,instance.numIslands(grid1));
         assertEquals(2,instance.numIslands(grid2));
+    }
+
+    @Test
+    public void testNumIslands2() {
+        NumberOfIslands_200 instance = new NumberOfIslands_200();
+        assertEquals(1,instance.numIslandsBfs(grid1));
+        assertEquals(2,instance.numIslandsBfs(grid2));
+        assertEquals(2,instance.numIslandsBfs(grid3));
     }
 }
