@@ -1,4 +1,4 @@
-package com.pk.cci.recursion.dp;
+package com.pk.cci;
 
 import org.junit.Test;
 
