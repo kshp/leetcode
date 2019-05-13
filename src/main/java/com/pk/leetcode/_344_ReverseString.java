@@ -1,6 +1,21 @@
 package com.pk.leetcode;
 
 public class _344_ReverseString {
+    public void reverseStringRecursively(Character[] s) {
+        helper(0,s.length-1,s);
+    }
+    private void helper(int startIndex, int endIndex, Character[]s){
+        if (startIndex>=endIndex)
+            return;
+
+        helper(startIndex+1, endIndex-1, s);
+
+        char tmp = s[startIndex];
+        s[startIndex] = s[endIndex];
+        s[endIndex] = tmp;
+    }
+
+
     public void reverseString(Character[] s) {
         if (s.length==0)
             return;
