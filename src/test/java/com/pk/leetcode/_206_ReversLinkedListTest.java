@@ -33,6 +33,13 @@ public class _206_ReversLinkedListTest {
     }
 
     @Test
+    public void reverseListRecursive2() {
+        _206_ReversLinkedList instance = new _206_ReversLinkedList();
+        ListNode listNode = instance.reverseListRecursive2(node);
+        assertTrue(ListNode.equalNodes(result1, listNode));
+    }
+
+    @Test
     public void reverseListIterative() {
         _206_ReversLinkedList instance = new _206_ReversLinkedList();
         ListNode listNode = instance.reverseListIterative(node);

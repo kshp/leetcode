@@ -16,6 +16,14 @@ public class _206_ReversLinkedList {
         return newHead;
     }
 
+    public ListNode reverseListRecursive2(ListNode head) {
+        if (head == null || head.next == null) return head;
+        ListNode p = reverseListRecursive2(head.next);
+        head.next.next = head;
+        head.next = null;
+        return p;
+    }
+
     public ListNode reverseListRecursive(ListNode head) {
         return reverseListInt(head, null);
     }
