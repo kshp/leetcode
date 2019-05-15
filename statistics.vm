@@ -1,18 +1,22 @@
 September 2018
 13.09 - 35,66
 14.09 - 189, 11
-18.09 - 1, 15(M)
+18.09 - 1,
+        15(M)
 21.09 - 15(M) (finished)
 22.09 - 18(M)
-24.09 - 3(H), 76(H)
+24.09 - 3(H),
+        76(H)
 
 October 2018
 03.10 - 438(E)
 04.10 - 3(M)
 17.10 - 30(H)
 19.10 - 451(M)
-23.10 - 242(E), 819(E)
-25.10 - 56(M), 349 (E)
+23.10 - 242(E),
+        819(E)
+25.10 - 56(M),
+        349 (E)
 26.10 - 57(H)
 
 February 2019
@@ -32,30 +36,47 @@ March 2019
 11.03 - 53(E) Maximum Subarray
 12.03 - 196(M) House Robber
 13.03 - 303(E) Range Sum Query - Immutable
-15.03 - FixedArrayQueue, DynamicArrayQueue, Moving Average
-16.03 - BinaryTreePreOrderTraversal, BinaryTreeInOrderTraversal
-21.03 - BinaryLevelOrderTraversal, BinaryPostOrderTraversal
+15.03 - FixedArrayQueue,
+        DynamicArrayQueue,
+        Moving Average
+16.03 - BinaryTreePreOrderTraversal,
+        BinaryTreeInOrderTraversal
+21.03 - BinaryLevelOrderTraversal,
+        BinaryPostOrderTraversal
 22.03 - BinaryTreeMaxDepth
-24.03 - SimmetricTree, PathSum
+24.03 - SimmetricTree,
+        PathSum
 25.03 - Count Univalue Subtrees
 
 April 2019
-01.04 - ConstructBinaryTreeFromInorderAndPostOrder Recursive, ConstructBinaryTreeFromInorderAndPreOrder Recursive
-03.04 - ConstructBinaryTreeFromInorderAndPostOrder Iterative, ConstructBinaryTreeFromInorderAndPreOrder Iterative
+01.04 - ConstructBinaryTreeFromInorderAndPostOrder Recursive,
+        ConstructBinaryTreeFromInorderAndPreOrder Recursive
+03.04 - ConstructBinaryTreeFromInorderAndPostOrder Iterative,
+        ConstructBinaryTreeFromInorderAndPreOrder Iterative
 07.04 - 2(M) Add Two Numbers
 20.04 - 200(M) Number of Islands DFS
-21.04 - 117(M) Populating Next Right Pointers in Each Node II, 236(M) Lowest Common Ancestor of a Binary Tree
-23.04 - 297(H) Serialize and Deserialize Binary Tree, 200(M) Number of Islands BFS
+21.04 - 117(M) Populating Next Right Pointers in Each Node II,
+        236(M) Lowest Common Ancestor of a Binary Tree
+23.04 - 297(H) Serialize and Deserialize Binary Tree,
+        200(M) Number of Islands BFS
 
 May 2019
-07.05 - 752(M) Open The Lock (BFS), 279 (M) Perfect Squares
-08.05 - 20(E) Valid Parentheses, 739 (M) Daily Temperatures, 150 (M) Evaluate Reverse Polish Notation
+07.05 - 752(M) Open The Lock (BFS),
+        279 (M) Perfect Squares
+08.05 - 20(E) Valid Parentheses,
+        739 (M) Daily Temperatures,
+        150 (M) Evaluate Reverse Polish Notation
 09.05 - 131(M) Clone Graph
 10.05 - 494(M) Target Sum
 11.05 - 394(M) Decode String
-12.05 - 733(E) Flood Fill, 542 (M) 01 Matrix, 841 (M) Keys and Rooms
-13.05 - 344(E) Reverse String (recursive), 24 (M) SwapNodesInPairs, 118 (E)Pascal's Triangle
-14.05 - 119 (E)Pascal's Triangle II, 206 (E) Reverse Linked List (Recursive/Iterative)
+12.05 - 733(E) Flood Fill,
+        542 (M) 01 Matrix,
+        841 (M) Keys and Rooms
+13.05 - 344(E) Reverse String (recursive),
+        24 (M) SwapNodesInPairs,
+        118 (E)Pascal's Triangle
+14.05 - 119 (E)Pascal's Triangle II,
+        206 (E) Reverse Linked List (Recursive/Iterative)
 15.05 - 206 (E) ReversLinkedList
 
 
@@ -69,7 +90,3 @@ May 2019
 7) Write code on whiteboard/paper
 8) Debug code on whiteboard/paper with new test cases
 9) Copy code to the IDE and run in
-
-*) OpenJDK doesn't install javaFX by default. Some classes in this repo use javafx.util.Pair.
-You have to install javaFX manually (for example):
-https://stackoverflow.com/questions/27178895/cannot-resolve-symbol-javafx-application-in-intellij-idea-ide
